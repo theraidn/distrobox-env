@@ -86,7 +86,8 @@ sudo dnf install -y --skip-unavailable \
     jq \
     openssl \
     ca-certificates \
-    ansible
+    ansible \
+    sshpass
 
 echo "Verifying installations..."
 python3 --version
