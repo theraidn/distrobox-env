@@ -27,7 +27,7 @@ Distrobox allows you to create containerized Linux distributions while maintaini
 ├── create.sh                    # Main script to create/setup development environments
 ├── remote.sh                    # Script to remove/delete development environments
 ├── config/
-│   └── dev.env                  # Configuration for the 'dev' environment
+│   └── dev.env                  # Configuration for the 'dev' environment 
 ├── functions/
 │   └── utils.sh                 # Shared utility functions
 └── setup/
@@ -157,7 +157,7 @@ Files in your home directory are automatically accessible inside the distrobox:
 
 ```bash
 dev
-ls ~/ENTW/code  # Access host files from container
+ls ~/dev/code  # Access host files from container
 exit
 ```
 
@@ -241,10 +241,6 @@ When adding new environments or modifying provisioning scripts:
 4. Test the provisioning script thoroughly
 5. Update this README with any new features or changes
 
-## License
-
-[Add your license information here if applicable]
-
 ## Related Links
 
 - [Distrobox GitHub](https://github.com/89luca89/distrobox)
@@ -255,5 +251,3 @@ When adding new environments or modifying provisioning scripts:
 ---
 
 **Last Updated:** December 2025
-
-For questions or issues, please refer to the individual script files which contain detailed comments and error messages.
